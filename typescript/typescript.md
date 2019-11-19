@@ -1,14 +1,17 @@
-# TypeScript
+# 一起学习TypeScript
+
+
+>TypeScript is a typed superset of JavaScript that compiles to plain JavaScript。
 
 [TypeScript](https://www.typescriptlang.org/) 是一种由微软开发的自由和开源的编程语言。它是 JavaScript 的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。
 
 
-## 目录
+## 学习目录
 
 
 - [目录](#目录)
 - [TypeScript 教程](#typescript-教程)
-    - [选型/新特性](#选型新特性)
+    - [为什么选择 TypeScript](#为什么选择TypeScript)
     - [学习资源](#学习资源)
         - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial)
         - [进阶](#进阶)
@@ -45,7 +48,7 @@
 
 ---
 ## TypeScript 教程
-### 选型/新特性
+### 为什么选择TypeScript
 
 - [蚂蚁金服数据体验技术团队 - TypeScript体系调研报告](https://juejin.im/post/59c46bc86fb9a00a4636f939)
 - [Vilicvane - TypeScript 2.0 新特性一览](https://zhuanlan.zhihu.com/p/21629069)
