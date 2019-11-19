@@ -5,52 +5,91 @@
 
 ## 目录
 
-- [Awesome TypeScript](#ts-logomediats-favicon-96x96png-awesome-typescript)
-    - [目录](#目录)
-    - [TypeScript 教程](#typescript-教程)
-        - [选型/新特性](#选型新特性)
-        - [中文资源](#中文资源)
-            - [入门](#入门)
-            - [进阶](#进阶)
-            - [实战](#实战)
-        - [英文资源](#英文资源)
-            - [特性](#特性)
-            - [教程](#教程)
-            - [示例](#示例)
-            - [风格指南](#风格指南)
-            - [Awesome](#awesome)
-    - [TypeScript Starter/Boilerplate](#typescript-starterboilerplate)
-    - [TypeScript 设计模式](#typescript-设计模式)
-    - [TypeScript 视频](#typescript-视频)
-        - [中文视频](#中文视频)
-        - [英文视频](#英文视频)
-    - [TypeScript 问答](#typescript-问答)
-    - [TypeScript 书籍](#typescript-书籍)
-        - [中文书籍](#中文书籍)
-        - [英文书籍](#英文书籍)
-    - [TypeScript 工具/库/框架](#typescript-工具库框架)
-        - [构建工具](#构建工具)
-            - [webpack](#webpack)
-            - [gulp](#gulp)
-            - [grunt](#grunt)
-            - [compiler](#compiler)
-            - [linter](#linter)
-        - [Ioc](#ioc)
-        - [文档生成](#文档生成)
-        - [数据结构](#数据结构)
-        - [数据库](#数据库)
-        - [Server](#server)
-    - [TypeScript IDE](#typescript-ide)
-        - [Offline](#offline)
-            - [IDE/插件](#ide插件)
-        - [Online](#online)
-            - [Playground](#playground)
-            - [Chrome 扩展](#chrome-扩展)
-    - [贡献](#贡献)
-        - [指南](#指南)
+
+- [目录](#目录)
+- [TypeScript 教程](#typescript-教程)
+    - [选型/新特性](#选型新特性)
+    - [学习资源](#学习资源)
+        - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial)
+        - [进阶](#进阶)
+        - [实战](#实战)
+- [TypeScript Starter/Boilerplate](#typescript-starterboilerplate)
+- [TypeScript 设计模式](#typescript-设计模式)
+- [TypeScript 视频](#typescript-视频)
+    - [中文视频](#中文视频)
+    - [英文视频](#英文视频)
+- [TypeScript 问答](#typescript-问答)
+- [TypeScript 书籍](#typescript-书籍)
+    - [中文书籍](#中文书籍)
+    - [英文书籍](#英文书籍)
+- [TypeScript 工具/库/框架](#typescript-工具库框架)
+    - [构建工具](#构建工具)
+        - [webpack](#webpack)
+        - [gulp](#gulp)
+        - [grunt](#grunt)
+        - [compiler](#compiler)
+        - [linter](#linter)
+    - [Ioc](#ioc)
+    - [文档生成](#文档生成)
+    - [数据结构](#数据结构)
+    - [数据库](#数据库)
+    - [Server](#server)
+- [TypeScript IDE](#typescript-ide)
+    - [Offline](#offline)
+        - [IDE/插件](#ide插件)
+    - [Online](#online)
+        - [Playground](#playground)
+        - [Chrome 扩展](#chrome-扩展)
+- [贡献](#贡献)
+    - [指南](#指南)
 
 ---
-## 实战
+## TypeScript 教程
+### 选型/新特性
+
+- [蚂蚁金服数据体验技术团队 - TypeScript体系调研报告](https://juejin.im/post/59c46bc86fb9a00a4636f939)
+- [Vilicvane - TypeScript 2.0 新特性一览](https://zhuanlan.zhihu.com/p/21629069)
+- [Vilicvane - TypeScript 2.1 新特性一览](https://zhuanlan.zhihu.com/p/24267683)
+- [Vilicvane - TypeScript 2.2 新特性一览](https://zhuanlan.zhihu.com/p/25579011)
+- [Vilicvane - TypeScript 2.3 新特性一览](https://zhuanlan.zhihu.com/p/27349475)
+- [Microsoft - TypeScript 2.4 新特性一览](https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript)
+- [Vilicvane - TypeScript 2.5~2.6 新特性一览](https://zhuanlan.zhihu.com/p/30760290)
+- [黄子毅 - 精读<<TypeScript2.0 - 2.9>>](https://zhuanlan.zhihu.com/p/37374083)
+- [Linux中国 - 一篇缺失的 TypeScript 介绍](https://zhuanlan.zhihu.com/p/28494162)
+- [单纯的土豆 - ES5, ES2015 和 TypeScript 的区别](http://www.jianshu.com/p/3c8c7713fa0e)
+- [三七二十 - TypeScript 的好处都有啥？和 JavaScript 的区别在哪？](https://zhuanlan.zhihu.com/p/38526585)
+- [Grain 先森 - 前端-TypeScript VS JavaScript 深度对比](https://www.jianshu.com/p/0dfbcd4a0757)
+- [贺贺v5 - Angular2、Ionic、TypeScript、es6的关系？](http://www.jianshu.com/p/27c026734b8d)
+- [极客学院 - 使用 TypeScript 提高开发能力](http://www.jianshu.com/p/066a6017db1b)
+- [Hevin - 为什么 Reddit 选择了 TypeScript？](https://zhuanlan.zhihu.com/p/27695708)
+- [JiaXinYi - Angular: 我们为什么选择 TypeScript](https://segmentfault.com/a/1190000010892897)
+- [Djcordhose - 对比 Flow 和 TypeScript](http://djcordhose.github.io/flow-vs-typescript/flow-typescript-2.html#/)
+- [Neal1991 - 采用 Flow 以及 TypeScript](https://github.com/neal1991/articles-translator/blob/master/%E9%87%87%E7%94%A8Flow%E4%BB%A5%E5%8F%8ATypeScript.md)
+- [柳佳 - Flow vs. Typescript](https://zhuanlan.zhihu.com/p/27593029)
+- [SDK.cn - Slack 的 TypeScript 之路](https://sdk.cn/news/6789)
+- [RDDcoding - 熟悉全栈TypeScript](https://segmentfault.com/a/1190000014414303)
+- [Lxxyx - TypeScript - 不止稳，而且快](http://www.lxxyx.win/2017/07/23/2017/ts-accerlate/)
+
+### 学习资源
+#### 进阶
+
+- [Zhongsp - TypeScript Handbook (中文版)](https://zhongsp.gitbooks.io/typescript-handbook/content/)
+- [Bjcl - TypeScript 教程](https://www.w3cschool.cn/typescript/)
+- [Jason - 你所不知道的 Typescript 与 Redux 类型优化](https://zhuanlan.zhihu.com/p/32112508)
+- [王亦斯 - 巧用 Typescript](https://zhuanlan.zhihu.com/p/39620591)
+- [三毛 - 巧用 TypeScript （一）](https://jkchao.cn/article/5bb9c63963a5d23d5ce3091b)
+- [三毛 - 巧用 TypeScript （二）](https://jkchao.cn/article/5bde8fdf94307c57d4c8d37a)
+- [三毛 - 巧用 TypeScript （三）](https://jkchao.cn/article/5befe57994307c57d4c8d383)
+- [三毛 - 巧用 TypeScript （四）](https://jkchao.cn/article/5c162137e35fb85c4c7e1278)
+- [三毛 - 巧用 TypeScript （五）](https://jkchao.cn/article/5c8a4d99e53a054fad647c15)
+- [Square - TypeScript 3.0 元组类型的用法和一些奇技淫巧](https://zhuanlan.zhihu.com/p/38687656)
+- [Square - Typescript 类型高级技巧，和强约束 bind 的实现](https://zhuanlan.zhihu.com/p/38789971)
+- [腾讯NEXT学位 - 深入 TypeScript 的类型系统](https://zhuanlan.zhihu.com/p/38081852)
+- [newraina - 手把手教写 TypeScript Transformer Plugin](https://zhuanlan.zhihu.com/p/30360931)
+- [EER - TypeScript 重构 Axios 经验分享](https://juejin.im/post/5bf7f1c0e51d455ed74f625c)
+- [三毛 - 深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+
+#### 实战
 
 **Angular**
 
@@ -103,6 +142,16 @@
 - [YDJFE - 一次TypeScript, React, Node, MongoDB的模板式前后端分离开发实践](https://juejin.im/post/5b89e47f51882542c062651f)
 
 ---
+## TypeScript 设计模式
+
+- [蚂蚁金服数据体验技术团队 - Typescript玩转设计模式 之 创建型模式](https://juejin.im/post/59fa88ac5188255a6a0d5f31)
+- [蚂蚁金服数据体验技术团队 - Typescript玩转设计模式 之 结构型模式（上）](https://juejin.im/post/5a2d16325188252da0535d73)
+- [蚂蚁金服数据体验技术团队 - Typescript玩转设计模式 之 结构型模式（下）](https://juejin.im/post/5a51da10f265da3e347b1483)
+- [蚂蚁金服数据体验技术团队 - Typescript玩转设计模式 之 对象行为型模式（上）](https://juejin.im/post/5a6dd4dd51882573385ffa8e)
+- [蚂蚁金服数据体验技术团队 -Typescript玩转设计模式 之 对象行为型模式（下）](https://juejin.im/post/5a77211b6fb9a0635774d61a)
+- [杜帅 - 浅析Typescript设计模式](https://zhuanlan.zhihu.com/p/43283016)
+- [torokmark - design_patterns_in_typescript](https://github.com/torokmark/design_patterns_in_typescript)
+---
 ## TypeScript 书籍
 
 ### 中文书籍
@@ -127,6 +176,8 @@
 - [TypeScript High Performance](https://www.amazon.cn/dp/B071VVFD4D/)
 - [TypeScript Microservices](https://www.amazon.cn/dp/B078N3XCVG/)
 
+
+---
 ## TypeScript 工具/库/框架
 
 ### 构建工具
@@ -180,6 +231,7 @@
 * [welefen - thinkjs](https://github.com/thinkjs/thinkjs)
 * [kamilmysliwiec - nest](https://github.com/nestjs/nest)
 
+---
 ## TypeScript IDE
 
 ### Offline

@@ -62,20 +62,20 @@ Ant Design 的 Vue 实现，开发和服务于企业级后台产品
 jQuery
 ### 九、项目部署
 项目构建工具
-Gulp（https://www.gulpjs.com.cn/）
+[Gulp]（https://www.gulpjs.com.cn/）
 ES6＋ 转换器
-Babel（https://babeljs.io/）
-NPM（https://www.npmjs.com/）
-ESLint（https://cn.eslint.org/）
+[Babel]（https://babeljs.io/）
+[NPM]（https://www.npmjs.com/）
+[ESLint]（https://cn.eslint.org/）
 可组装的JavaScript和JSX检查工具
 ### 十、代码组织
 类库模块化
 CommonJS/AMD
 YUI3模块
-Webpack（https://webpack.js.org/）
+[Webpack]（https://webpack.js.org/）
 ### 十一、调试抓包
-Fiddler：https://www.telerik.com/fiddler
-whistle：https://wproxy.org/whistle/
+[Fiddler](https://www.telerik.com/fiddler)
+[whistle](https://wproxy.org/whistle/)
 ### 十二、编程知识储备
 数据结构
 OOP/AOP
