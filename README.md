@@ -23,6 +23,8 @@ bind call apply
 es6
 let 与变量提升
 
+### 四、[typescript](typescript/typescript.md)
+
 ### 四、浏览器相关
 cookie和localSrorage、session、indexDB
 跨域问题
@@ -42,7 +44,7 @@ web缓存
 浏览器渲染原理及流程 DOM -> CSSOM -> render -> layout -> print
 页面优化方法
 ### 五、框架
-框架的选择
+[框架的选择](三大框架\三大框架的比较.md)
 vue
 生命周期
 双向绑定
