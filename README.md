@@ -25,7 +25,7 @@ let 与变量提升
 
 ### 四、[typescript](typescript/typescript.md)
 
-### 四、浏览器相关
+### 五、浏览器相关
 cookie和localSrorage、session、indexDB
 跨域问题
 经典JSONP
@@ -43,7 +43,7 @@ web缓存
 常见的web安全及防护原理
 浏览器渲染原理及流程 DOM -> CSSOM -> render -> layout -> print
 页面优化方法
-### 五、框架
+### 六、框架
 [框架的选择](三大框架\三大框架的比较.md)
 vue
 生命周期
@@ -53,14 +53,14 @@ vuex
 vue路由
 vue-router
 axios
-### 六、UI框架
+### 七、UI框架
 ElementUI
 iView
 Ant Design of Vue
 Ant Design 的 Vue 实现，开发和服务于企业级后台产品
-### 七、类库
+### 八、类库
 jQuery
-### 八、项目部署
+### 九、项目部署
 项目构建工具
 Gulp（https://www.gulpjs.com.cn/）
 ES6＋ 转换器
@@ -68,15 +68,15 @@ Babel（https://babeljs.io/）
 NPM（https://www.npmjs.com/）
 ESLint（https://cn.eslint.org/）
 可组装的JavaScript和JSX检查工具
-### 九、代码组织
+### 十、代码组织
 类库模块化
 CommonJS/AMD
 YUI3模块
 Webpack（https://webpack.js.org/）
-### 十、调试抓包
+### 十一、调试抓包
 Fiddler：https://www.telerik.com/fiddler
 whistle：https://wproxy.org/whistle/
-### 十一、编程知识储备
+### 十二、编程知识储备
 数据结构
 OOP/AOP
 原型链/作用域链
